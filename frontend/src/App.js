@@ -1,5 +1,18 @@
+import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
+import LandingPage from "./components/screens/LandingPage/LandingPage";
+
 const App = () => {
-  return <div>You can Win</div>;
+  return (
+    <div>
+      <Header />
+      <main>
+        <LandingPage />
+      </main>
+
+      <Footer />
+    </div>
+  );
 };
 
 export default App;
