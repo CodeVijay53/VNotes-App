@@ -1,9 +1,8 @@
 import React from "react";
 import { Button, Container, Row } from "react-bootstrap";
-
 import "./LandingPage.css";
 
-function LandingPage() {
+const LandingPage = () => {
   return (
     <div className="main">
       <Container>
@@ -37,6 +36,6 @@ function LandingPage() {
       </Container>
     </div>
   );
-}
+};
 
 export default LandingPage;
